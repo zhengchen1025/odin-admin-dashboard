@@ -1,22 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Project: Admin Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-
+      <div class="header">
+        <div class="search-bar">
+          <img src="icons/Magnify icon.svg" height="22px" />
+          <input type="search" name="" id="searchBar" />
         </div>
-        <div class="sidebar">
-
+        <div class="user-info">
+          <img
+            class="notification"
+            src="icons/Bell outline.svg"
+            height="22px"
+          />
+          <img src="icons/Avatar gamer.png" alt="" height="50px" />
+          <p>Morgan Oakley</p>
         </div>
-        <div class="main-content">
-            
+        <div class="greeting">
+          <img src="icons/Avatar icon (1).png" alt="" height="50px" />
+          <div>
+            <p>Hi there!</p>
+            <p><strong>Morgan Oakley!(@morgan)</strong></p>
+          </div>
         </div>
+        <div class="buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="side1">
+          <p>Dashboard</p>
+        </div>
+        <div class="side2">
+          <div>
+            <img src="icons/Home outline.svg" alt="" height="22px" />
+            <p>Home</p>
+          </div>
+          <div>
+            <img src="icons/Account icon.svg" alt="" height="22px" />
+            <p>Profile</p>
+          </div>
+          <div>
+            <img src="icons/Message Outline.svg" alt="" height="22px" />
+            <p>Message</p>
+          </div>
+          <div>
+            <img src="icons/Material Design History.svg" alt="" height="22px" />
+            <p>History</p>
+          </div>
+          <div>
+            <img src="icons/Calendar Check Outline.svg" alt="" height="22px" />
+            <p>Tasks</p>
+          </div>
+          <div>
+            <img src="icons/Account Group Icon.svg" alt="" height="22px" />
+            <p>Communities</p>
+          </div>
+        </div>
+        <div class="side3">
+          <div>
+            <img src="icons/Material Design Icons.svg" alt="" height="22px" />
+            <p>Settings</p>
+          </div>
+          <div>
+            <img src="icons/Face Agent.svg" alt="" height="22px" />
+            <p>Support</p>
+          </div>
+          <div>
+            <img src="icons/Safe icon.svg" alt="" height="22px" />
+            <p>Privacy</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="l1">
+            <p>Your Projects</p>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+        </div>
+        <div class="r1">
+            <p>Announcements</p>
+            <div></div>
+        </div>
+        <div class="r2">
+            <p>Trending</p>
+            <div></div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
