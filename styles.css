@@ -90,12 +90,26 @@ button {
   padding: 15px;
 }
 
+.side1 > div {
+  display: flex;
+  align-items: center;
+}
 .side2 > div {
   display: flex;
+  align-items: center;
 }
 .side3 > div {
   display: flex;
+  align-items: center;
 }
+
+svg {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    margin-right: 10px;
+  }
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -115,4 +129,83 @@ button {
 }
 .main-content {
   background-color: var(--main-color);
+  display: grid;
+  grid-template-columns: 2.55fr 1fr;
+  grid-template-rows: 5.5fr 4.5fr;
+}
+
+.l1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.all-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 96%;
+}
+
+.project {
+    background-color: white;
+    border-left: 5px solid orange ;
+    border-radius: 0.3em;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projectImg {
+    margin-top: 1em;
+    text-align: end;
+}
+
+.title {
+    margin: 1em 0 -0.5em 1em;
+}
+
+.r1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.smallText {
+    font-size: 12px;
+    margin-top: 0.7em;
+}
+
+.announcementsBlock {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    height: 80%;
+}
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.r2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.trendingBox{
+    background-color: white;
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 0.5em;
+    height: 80%;
+}
+.trend {
+    margin: 0.5em;
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.trend img {
+    margin-right:0.5em;
 }
